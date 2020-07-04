@@ -1,6 +1,6 @@
 {
 	"name" : "Russian",
-	"version" : "1.0.3",
+	"version" : "1.0.4",
 	"messages": {
 		"currency": "G",
 		"free": "Free",
@@ -15,9 +15,9 @@
 		"close": "Close",
 		"effects": "Эффекты",
 		"music": "Музыка",
-		"home": "Дома",
-		"inventory": "Рюкзак",
-		"minigame": "Других",
+		"home": "Home",
+		"inventory": "Инвентарь",
+		"minigame": "Другое",
 		"upgrade": "Улучшения",
 		"settings": "Параметры",
 		"collections": "Коллекции",
