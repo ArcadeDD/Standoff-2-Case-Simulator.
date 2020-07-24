@@ -3,53 +3,53 @@
     "version": "1.0.5",
     "messages": {
       "currency": "G",
-      "free": "FREE",
-      "new": "NEW",
-      "save": "SAVE",
-      "open": "OPEN",
-      "confirm": "CONFIRM",
-      "accept": "ACCEPT",
-      "about": "ABOUT",
-      "terms": "TERMS",
-      "back": "BACK",
-      "close": "CLOSE",
+      "free": "Бесплатный",
+      "new": "Новое",
+      "save": "Сохранить",
+      "open": "Открыть",
+      "confirm": "Продолжить",
+      "accept": "Принять",
+      "about": "Об этом",
+      "terms": "Условия",
+      "back": "Назад",
+      "close": "Закрыть",
       "effects": "Эффекты",
       "music": "Музыка",
-      "home": "HOME",
+      "home": "Домой",
       "inventory": "Инвентарь",
-      "minigame": "Другое",
+      "minigame": "Мини-игры",
       "upgrade": "Улучшения",
-      "settings": "Параметры",
+      "settings": "Настройки",
       "collections": "Коллекции",
-      "opening_case": "Открытие дела",
-      "sell": "SELL",
-      "sell_all": "SELL ALL",
-      "sell_items": "Продажа товаров",
-      "sell_this": "ПРОДАТЬ ЭТОТ ТОВАР?",
-      "case_contain": "Этот случай содержит:",
+      "opening_case": "Открытие кейса",
+      "sell": "Продать",
+      "sell_all": "Продать Все",
+      "sell_items": "Продажа дропа",
+      "sell_this": "ПРОДАТЬ ЭТОТ ДРОП?",
+      "case_contain": "Этот кейс содержит:",
       "collection_page_title": "{name} КОЛЛЕКЦИИ",
-      "free_ads_case_time": "FREE ADS CASE IN {time}",
-      "free_ads_case_avaible": "ADS CASE AVAILABLE!",
-      "free_case_time": "FREE CASE IN {time}",
-      "free_case_avaible": "FREE CASE AVAILABLE!",
+      "free_ads_case_time": " Рекламный кейс будет через{time}",
+      "free_ads_case_avaible": "Рекламный кейс доступен!",
+      "free_case_time": "Бесплатный кейс будет через {time}",
+      "free_case_avaible": "Бесплатный кейс доступен!",
       "profileView": {
-        "changeName": "INSERT YOUR NAME",
-        "changeAvatar": "SELECT AN AVATAR",
+        "changeName": "Введите свой ник",
+        "changeAvatar": "Выберете Аватар",
         "goldTotal": {
           "name": "MONEY SPENT",
-          "changeImagr": "SELECT AN AVATAR",
+          "changeImagr": "Выберете Аватар",
           "value": "{value}",
-          "description": "Total spent from the beginning."
+          "description": "Всего потрачено."
         },
         "goldAcumulated": {
-          "name": "HIGHEST VALUE",
+          "name": "Самая большая цена",
           "value": "{value}",
-          "description": "Higher amount of accumulated gold."
+          "description": "Максимально накоплено золота."
         },
         "opened": {
-          "name": "OPENED BOXES",
-          "value": "{value} boxes",
-          "description": "Total number of open boxes."
+          "name": "Открыто кейсов",
+          "value": "{value} Кейсов",
+          "description": "Общая сумма открытых кейсов."
         },
         "inventory": {
           "name": "INVENTORY",
@@ -57,29 +57,29 @@
           "description": "Total number of items in the inventory."
         },
         "arcane": {
-          "name": "ARCANE SKINS",
-          "value": "{value} skins",
-          "description": "Amount of arcane skins dropped."
+          "name": "Арканы",
+          "value": "{value} Скинов",
+          "description": "Количество выпавших аркан."
         },
         "knife": {
-          "name": "DROPPED KNIVES",
-          "value": "{value} knives",
-          "description": "Number of knives dropped."
+          "name": "Сколько выпало ножей",
+          "value": "{value} ножей",
+          "description": "Количество выпавших ножей."
         },
         "watched": {
-          "name": "WATCHED",
-          "value": "{value} ad",
-          "description": "Number of ads watched <3"
+          "name": "Просмоторено реклам",
+          "value": "{value} реклам",
+          "description": "Количество просмотренных реклам <3"
         }
       },
       "minigameUI": {
         "clicker": {
-          "title": "TAP HERE!",
-          "line_0": "{value} золото за клик.",
-          "line_1": "{value} золото на критический."
+          "title": "Жми сюда!",
+          "line_0": "{value} золота за клик.",
+          "line_1": "{value} золота за критический."
         },
         "bot": {
-          "title": "{type} BOT.",
+          "title": "{type} Блт.",
           "max": "Золото: {gold}",
           "time": "Время: {time}",
           "collect": "кран для сбора!",
@@ -88,17 +88,17 @@
       },
       "upgradeUI": {
         "tap": {
-          "title": "Gold per tap.",
-          "level": "Level {level}.",
-          "requeriment": "Requeriment: {level} + {gold}.",
-          "lore_0": "Gold per tap (+{percent}%)."
+          "title": "Голды за клик.",
+          "level": "Ваш ранг {level}.",
+          "requeriment": ": {level} + {gold}.",
+          "lore_0": "Голды за клик (+{percent}%)."
         },
         "critical": {
-          "title": "Critical per tap.",
-          "level": "Level {level}.",
-          "requeriment": "Requeriment: {level} + {gold}.",
-          "lore_0": "Gold per critical (+{percent}%).",
-          "lore_1": "Critical chance (+{percent}%)."
+          "title": "Критикал за клик.",
+          "level": "Уровень{level}.",
+          "requeriment": "Повторно: {level} + {gold}.",
+          "lore_0": "Голды за критикал (+{percent}%).",
+          "lore_1": "Шанс критикала (+{percent}%)."
         }
       },
       "inspect": {
@@ -107,12 +107,12 @@
           "text": "Price<br>Magazine Capacity<br>Penetration Power<br>Kill Award<br>Special",
           "values": "{price}<br>{mag}/{magMax}<br>{power}<br>${killAward}<br>{special}"
         },
-        "damage": "DAMAGE",
-        "firerate": "FIRERATE",
-        "recoil_control": "RECOIL CONTROL",
-        "range": "ACCURATE RANGE",
-        "mobility": "MOBILITY",
-        "armor_penetration": "ARMOR PENETRATION"
+        "damage": "Урон",
+        "firerate": "Скорострельность",
+        "recoil_control": "Разброс",
+        "range": "Точность",
+        "mobility": "Мобильность",
+        "armor_penetration": "Проникновение в броню"
       }
     }
 }
