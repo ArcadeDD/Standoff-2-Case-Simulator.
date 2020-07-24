@@ -42,7 +42,7 @@
           "description": "Всего потрачено."
         },
         "goldAcumulated": {
-          "name": "Самая большая цена",
+          "name": "Самая большое количество золота",
           "value": "{value}",
           "description": "Максимально накоплено золота."
         },
@@ -52,9 +52,9 @@
           "description": "Общая сумма открытых кейсов."
         },
         "inventory": {
-          "name": "INVENTORY",
-          "value": "{value} items",
-          "description": "Total number of items in the inventory."
+          "name": "Инвентарь",
+          "value": "{value} Вещей",
+          "description": "Всего вещей в инвентаре."
         },
         "arcane": {
           "name": "Арканы",
@@ -90,13 +90,13 @@
         "tap": {
           "title": "Голды за клик.",
           "level": "Ваш ранг {level}.",
-          "requeriment": ": {level} + {gold}.",
+          "requeriment": "Для разблокировки нужно: {level} + {gold}.",
           "lore_0": "Голды за клик (+{percent}%)."
         },
         "critical": {
           "title": "Критикал за клик.",
           "level": "Уровень{level}.",
-          "requeriment": "Повторно: {level} + {gold}.",
+          "requeriment": "Для разблокировки: {level} + {gold}.",
           "lore_0": "Голды за критикал (+{percent}%).",
           "lore_1": "Шанс критикала (+{percent}%)."
         }
