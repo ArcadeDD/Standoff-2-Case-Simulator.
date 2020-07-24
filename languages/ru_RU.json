@@ -1,79 +1,118 @@
 {
-	"name" : "Russian",
-	"version" : "1.0.5",
-	"messages": {
-		"currency": "G",
-		"free": "FREE",
-		"new": "NEW",
-		"save": "SAVE",
-		"open": "OPEN",
-		"confirm": "CONFIRM",
-		"accept": "ACCEPT",
-		"about": "ABOUT",
-		"terms": "TERMS",
-		"back": "BACK",
-		"close": "CLOSE",
-		"effects": "Эффекты",
-		"music": "Музыка",
-		"home": "HOME",
-		"inventory": "Инвентарь",
-		"minigame": "Другое",
-		"upgrade": "Улучшения",
-		"settings": "Параметры",
-		"collections": "Коллекции",
-		"opening_case": "Открытие дела",
-		"sell": "SELL",
-		"sell_all": "SELL ALL",
-		"sell_items": "Продажа товаров",
-		"sell_this": "ПРОДАТЬ ЭТОТ ТОВАР?",
-		"case_contain": "Этот случай содержит:",
-		"collection_page_title": "{name} КОЛЛЕКЦИИ",
-		"free_ads_case_time": "FREE ADS CASE IN {time}",
-		"free_ads_case_avaible": "ADS CASE AVAILABLE!",
-		"free_case_time": "FREE CASE IN {time}",
-		"free_case_avaible": "FREE CASE AVAILABLE!",
-		"profile_content_info": "Exp: {exp}/{expMax}<br>Золото, потраченное на все игровое время: {allTimeGold}<br>Макс акумулированное золото: {maxAcumulated}<br>Кейсов открыто: {opened}<br>Оружие в инвентаре: {weaponsCount}",
-		"minigameUI": {
-			"clicker": {
-				"title": "TAP HERE!",
-				"line_0": "{value} золото за клик.",
-				"line_1": "{value} золото на критический."
-			},
-			"bot": {
-				"title": "{type} BOT.",
-				"max": "Золото: {gold}",
-				"time": "Время: {time}",
-				"collect": "кран для сбора!",
-				"level": "РАЗБЛОКИРОВКА НА УРОВНЕ {level}"
-			}
-		},
-		"upgradeUI": {
-			"tap": {
-				"title": "Gold per tap.",
-				"level": "Level {level}.",
-				"requeriment": "Requeriment: {level} + {gold}.",
-				"lore_0": "Gold per tap (+{percent}%)."
-			},
-			"critical": {
-				"title": "Critical per tap.",
-				"level": "Level {level}.",
-				"requeriment": "Requeriment: {level} + {gold}.",
-				"lore_0": "Gold per critical (+{percent}%).",
-				"lore_1": "Critical chance (+{percent}%)."
-			}
-		},
-		"inspect": {
-			"title": "<b>{category} > {color}{weapon} </b>| {skin}",
-			"information": {
-				"text": "Price<br>Magazine Capacity<br>Penetration Power<br>Kill Award<br>Special",
-				"values": "{price}<br>{mag}/{magMax}<br>{power}<br>${killAward}<br>{special}"
-			},
-			"damage": "DAMAGE",
-			"firerate": "FIRERATE",
-			"recoil_control": "RECOIL CONTROL",
-			"range": "ACCURATE RANGE",
-			"mobility": "MOBILITY",
-			"armor_penetration": "ARMOR PENETRATION"
-		}
-	}
+    "name": "Russian",
+    "version": "1.0.5",
+    "messages": {
+      "currency": "G",
+      "free": "FREE",
+      "new": "NEW",
+      "save": "SAVE",
+      "open": "OPEN",
+      "confirm": "CONFIRM",
+      "accept": "ACCEPT",
+      "about": "ABOUT",
+      "terms": "TERMS",
+      "back": "BACK",
+      "close": "CLOSE",
+      "effects": "Эффекты",
+      "music": "Музыка",
+      "home": "HOME",
+      "inventory": "Инвентарь",
+      "minigame": "Другое",
+      "upgrade": "Улучшения",
+      "settings": "Параметры",
+      "collections": "Коллекции",
+      "opening_case": "Открытие дела",
+      "sell": "SELL",
+      "sell_all": "SELL ALL",
+      "sell_items": "Продажа товаров",
+      "sell_this": "ПРОДАТЬ ЭТОТ ТОВАР?",
+      "case_contain": "Этот случай содержит:",
+      "collection_page_title": "{name} КОЛЛЕКЦИИ",
+      "free_ads_case_time": "FREE ADS CASE IN {time}",
+      "free_ads_case_avaible": "ADS CASE AVAILABLE!",
+      "free_case_time": "FREE CASE IN {time}",
+      "free_case_avaible": "FREE CASE AVAILABLE!",
+      "profileView": {
+        "changeName": "INSERT YOUR NAME",
+        "changeAvatar": "SELECT AN AVATAR",
+        "goldTotal": {
+          "name": "MONEY SPENT",
+          "changeImagr": "SELECT AN AVATAR",
+          "value": "{value}",
+          "description": "Total spent from the beginning."
+        },
+        "goldAcumulated": {
+          "name": "HIGHEST VALUE",
+          "value": "{value}",
+          "description": "Higher amount of accumulated gold."
+        },
+        "opened": {
+          "name": "OPENED BOXES",
+          "value": "{value} boxes",
+          "description": "Total number of open boxes."
+        },
+        "inventory": {
+          "name": "INVENTORY",
+          "value": "{value} items",
+          "description": "Total number of items in the inventory."
+        },
+        "arcane": {
+          "name": "ARCANE SKINS",
+          "value": "{value} skins",
+          "description": "Amount of arcane skins dropped."
+        },
+        "knife": {
+          "name": "DROPPED KNIVES",
+          "value": "{value} knives",
+          "description": "Number of knives dropped."
+        },
+        "watched": {
+          "name": "WATCHED",
+          "value": "{value} ad",
+          "description": "Number of ads watched <3"
+        }
+      },
+      "minigameUI": {
+        "clicker": {
+          "title": "TAP HERE!",
+          "line_0": "{value} золото за клик.",
+          "line_1": "{value} золото на критический."
+        },
+        "bot": {
+          "title": "{type} BOT.",
+          "max": "Золото: {gold}",
+          "time": "Время: {time}",
+          "collect": "кран для сбора!",
+          "level": "РАЗБЛОКИРОВКА НА УРОВНЕ {level}"
+        }
+      },
+      "upgradeUI": {
+        "tap": {
+          "title": "Gold per tap.",
+          "level": "Level {level}.",
+          "requeriment": "Requeriment: {level} + {gold}.",
+          "lore_0": "Gold per tap (+{percent}%)."
+        },
+        "critical": {
+          "title": "Critical per tap.",
+          "level": "Level {level}.",
+          "requeriment": "Requeriment: {level} + {gold}.",
+          "lore_0": "Gold per critical (+{percent}%).",
+          "lore_1": "Critical chance (+{percent}%)."
+        }
+      },
+      "inspect": {
+        "title": "<b>{category} > {color}{weapon} </b>| {skin}",
+        "information": {
+          "text": "Price<br>Magazine Capacity<br>Penetration Power<br>Kill Award<br>Special",
+          "values": "{price}<br>{mag}/{magMax}<br>{power}<br>${killAward}<br>{special}"
+        },
+        "damage": "DAMAGE",
+        "firerate": "FIRERATE",
+        "recoil_control": "RECOIL CONTROL",
+        "range": "ACCURATE RANGE",
+        "mobility": "MOBILITY",
+        "armor_penetration": "ARMOR PENETRATION"
+      }
+    }
 }
