@@ -36,7 +36,7 @@
         "changeName": "Введите свой ник",
         "changeAvatar": "Выберете Аватар",
         "goldTotal": {
-          "name": "MONEY SPENT",
+          "name": "Денег потрачено",
           "changeImagr": "Выберете Аватар",
           "value": "{value}",
           "description": "Всего потрачено."
