@@ -103,8 +103,8 @@
       },
       "inspect": {
         "title": "<b>{category} > {color}{weapon} </b>| {skin}",
-        "information": {
-          "text": "Price<br>Magazine Capacity<br>Penetration Power<br>Kill Award<br>Special",
+        "Информация": {
+          "text": "Цена<br>Вместимость Магазина<br>Сила проникновения<br>Награда за убийство<br>Специально",
           "values": "{price}<br>{mag}/{magMax}<br>{power}<br>${killAward}<br>{special}"
         },
         "damage": "Урон",
